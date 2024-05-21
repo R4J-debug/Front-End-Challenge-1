@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(194, 211, 235);
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  height:100vh;
+}
+
+.mainContainer {
+  display: flex;
+  background-color: white;
+  padding: 0.8rem 1rem;
+  border-radius: 15px;
+  flex-direction: column;
+  height: 28rem;
+  width: 16rem;
+  text-align: center;
+}
+
+.mainContainer img {
+  height: 32rem;
+  border-radius: 8px;
+}
+
+h3 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+
+}
+
+p {
+  font-size: 1rem;
+  color: hsla(240, 4%, 5%, 0.479);
+  margin-top: 2px;
+}
